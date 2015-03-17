@@ -200,48 +200,48 @@ a.down-in{
 	display:block;
 }
 /*----*/
-.work-in {
+.projects-in {
 	padding: 3em 0;
 }
-.work-in img {
+.projects-in img {
 	width:100%
 }
-.work{
+.projects{
 	text-align:center;
 	padding:4em 0;
 }
-.work h3{
+.projects h3{
 	color:#000;
 	font-size:2.8em;
 	font-weight: 300;
 }
-.work-grid{
+.projects-grid{
 	float: left;
 	width: 50%;
 	margin: 0.5%;
 	position:relative;
 }
-.work-grid1{
+.projects-grid1{
 	width: 47.9%;
 	margin: 0.5% 0% 0.5% 0.5%;
 }
-.work-grid2{
+.projects-grid2{
 	width: 23%;
 }
-.work-grid3{
+.projects-grid3{
 	width: 24%;
 	float: right;
 	margin: 0.5%;
 }
-.work-grid4{
+.projects-grid4{
 	width: 25%;
 	margin: 0.5%;
 	float: left;
 }
-.work-grid5{
+.projects-grid5{
 	width: 48%;
 }
-.work-on{
+.projects-on{
 	margin-top: 3.5%;
 }
 .simple h5{
@@ -275,10 +275,10 @@ a.down-in{
 	font-weight: 200;
 	line-height:1.3em;
 }
-.work-grid:hover .simple,.work-bird:hover .simple{
+.projects-grid:hover .simple,.projects-bird:hover .simple{
 	display:block;
 }
-.work-bird{
+.projects-bird{
 	position:relative;
 }
 .simple-in{
@@ -947,13 +947,13 @@ a.arrow {
 p.dummy-about {
 	width: 95%;
 }
-.work-grid {
+.projects-grid {
 	margin: 0.4%;
 }
-.work-grid3,.work-grid4 {
+.projects-grid3,.projects-grid4 {
 	margin: 0.4%;
 }
-.work-on {
+.projects-on {
 	margin-top:3%;
 }
 
@@ -996,7 +996,7 @@ i.flower {
 .blog {
 	padding: 4em 0;
 }
-.work-grid1 {
+.projects-grid1 {
 	margin: 0.5% 0% 0.5% 0.5%;
 }
 }
@@ -1036,31 +1036,31 @@ a.arrow {
 .banner {
 	min-height: 419px;
 }
-.work-grid {
+.projects-grid {
 	width: 49.5%;
 }
-.work-grid1 {
+.projects-grid1 {
 	width: 47.4%;
 }
-.work-grid2 {
+.projects-grid2 {
 	width: 22.5%;
 }
-.work-grid5 {
+.projects-grid5 {
 	width: 48.4%;
 }
-.work-grid3 {
+.projects-grid3 {
 	width: 24.3%;
 }
-.work-grid4 {
+.projects-grid4 {
 	width: 24.1%;
 }
 .simple h5 {
 	font-size: 2em;
 }
-.work-grid {
+.projects-grid {
 	margin: 5px;
 }
-.work-on {
+.projects-on {
 	margin-top: 5%;
 }
 .simple {
@@ -1100,7 +1100,7 @@ a.arrow {
 .about {
 	padding: 3em 0;
 }
-.work {
+.projects {
 	padding: 3em 0;
 }
 .design {
@@ -1136,7 +1136,7 @@ a.arrow{
 .banner-matter {
 	top: 7em;
 }
-.about h3 ,.work h3,.blog h3{
+.about h3 ,.projects h3,.blog h3{
 	font-size: 2.5em;
 }
 .agency {
@@ -1154,22 +1154,22 @@ a.arrow{
 p.dummy-about {
 	font-size: 1.5em;
 }
-.work-grid1 {
+.projects-grid1 {
 	display: none;
 }
-.work-grid {
+.projects-grid {
 	width: 49%;
 	margin:0.5%;
 }
-.work-grid3{
+.projects-grid3{
 	width: 49%;
 	margin:0.5%;
 }
-.work-grid4{
+.projects-grid4{
 	width: 49%;
 	margin:0.5%;
 }
-.work-on{
+.projects-on{
 	margin:1.5% 0 0;
 }
 .motor-in {
@@ -1231,7 +1231,7 @@ a.arrow {
 .banner {
 	min-height: 291px;
 }
-.about h3,.work h3,.blog h3 ,.contact h3{
+.about h3,.projects h3,.blog h3 ,.contact h3{
 	font-size: 2em;
 }
 p.dummy-about {
@@ -1246,7 +1246,7 @@ p.dummy-about {
 .about {
 	padding: 2em 0;
 }
-.work {
+.projects {
 	padding: 2em 0;
 }
 .motor-in {
@@ -1255,7 +1255,7 @@ p.dummy-about {
 .motor {
 	height: 314px;
 }
-.work-in {
+.projects-in {
 	padding: 2em 0;
 }
 .item-in p {
@@ -1389,7 +1389,7 @@ a.arrow{
 	left: 8em;
 	bottom:12px;
 }
-.about h3, .work h3, .blog h3, .contact h3 {
+.about h3, .projects h3, .blog h3, .contact h3 {
 	font-size: 1.5em;
 }
 p.dummy-about {
@@ -1403,10 +1403,10 @@ font-size: 1.2em;
 .about {
 	padding: 1.5em 0 0.5em;
 }
-.work {
+.projects {
 	padding: 1.5em 0;
 }
-.work-in {
+.projects-in {
 	padding: 1em 0;
 }
 .motor-in {

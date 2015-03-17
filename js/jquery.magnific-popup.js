@@ -488,7 +488,7 @@ MagnificPopup.prototype = {
 		var type = item.type;	
 
 		_mfpTrigger('BeforeChange', [mfp.currItem ? mfp.currItem.type : '', type]);
-		// BeforeChange event works like so:
+		// BeforeChange event (It's s like so:
 		// _mfpOn('BeforeChange', function(e, prevType, newType) { });
 		
 		mfp.currItem = item;
