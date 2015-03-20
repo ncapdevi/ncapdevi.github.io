@@ -238,8 +238,9 @@ a.down-in{
 	top: 32px;
 	width: 92%;
 	height: 87%;
-	background:rgba(210, 89, 80, 0.88);
+	background:rgba(27, 27, 27, 0.76);
 	left: 23px;
+    border-radius: 45px;
 }
 .simple p {
 	font-size: 1.1em;
@@ -1136,14 +1137,7 @@ p.dummy-about {
 	width: 49%;
 	margin:0.5%;
 }
-.projects-grid3{
-	width: 49%;
-	margin:0.5%;
-}
-.projects-grid4{
-	width: 49%;
-	margin:0.5%;
-}
+
 .projects-on{
 	margin:1.5% 0 0;
 }
