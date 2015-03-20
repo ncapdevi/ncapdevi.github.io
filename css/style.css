@@ -124,6 +124,14 @@ h2,h3,h4,h5,h6,p{
 	padding: 0 0 1em;
 	line-height: 1.2em;
 }
+.banner h3{
+	color:darkgoldenrod;
+    font-weight: 100;
+	width: 61%;
+	margin: 0 auto;
+	padding: 0 0 1em;
+	line-height: 1.2em;
+}
 a.down{
 	text-decoration: none;
 	color: #fff;
@@ -856,12 +864,11 @@ ul.social-ic-icons li.goodreads a span{
 ul.social-ic-icons li.message a span:hover{
 	background-position:-59px -7px;
 }
-
 ul.social-ic-icons li.linked a span:hover{
 	background-position: -178px -7px;
 }
 ul.social-ic-icons li.goodreads a span:hover{
-	background-position:-220px -7px;
+	background-position:-225px -7px;
 }
 /*--responsive media-quries--*/
 @media(max-width:1440px){
