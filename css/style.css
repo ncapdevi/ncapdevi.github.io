@@ -855,7 +855,7 @@ ul.social-ic-icons li.dribble a span{
 ul.social-ic-icons li.linked a span{
 	background-position: -178px -54px;
 }
-ul.social-ic-icons li.behance a span{
+ul.social-ic-icons li.goodreads a span{
 	background-position:-218px -54px;
 }
 ul.social-ic-icons li.message a span:hover{
@@ -867,7 +867,7 @@ ul.social-ic-icons li.dribble a span:hover{
 ul.social-ic-icons li.linked a span:hover{
 	background-position: -178px -7px;
 }
-ul.social-ic-icons li.behance a span:hover{
+ul.social-ic-icons li.goodreads a span:hover{
 	background-position:-218px -7px;
 }
 /*--responsive media-quries--*/
