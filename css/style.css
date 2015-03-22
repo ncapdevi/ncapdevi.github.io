@@ -32,7 +32,8 @@ h2,h3,h4,h5,h6,p{
 
 .logo{
 	float: left;
-	margin-top: 0.8em;
+	margin-top: 1.38em;
+    margin-left: 0em;
 }
 .top-nav{
 	float:right;
