@@ -201,7 +201,7 @@ a.down-in{
 }
 .projects-grid{
 	float: left;
-	width: 50%;
+	width: 30%;
 	margin: 0.5%;
 	position:relative;
 }
@@ -244,11 +244,11 @@ a.down-in{
 	padding: 9em 0;
 	display: none;
 	position: absolute;
-	top: 32px;
+	top: 25px;
 	width: 92%;
 	height: 87%;
 	background:rgba(27, 27, 27, 0.76);
-	left: 23px;
+	left: 13px;
     border-radius: 45px;
 }
 .simple p {
