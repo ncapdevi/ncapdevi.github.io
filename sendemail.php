@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['email_from'])){
+if(isset($_GET['email_from'])){
     
         function died($error) { 
         // your error code can go here
@@ -11,15 +11,15 @@ if(isset($_POST['email_from'])){
         die(); 
     }
      
-    if(!isset($_POST['name']) || 
-        !isset($_POST['email_from']) || 
-        !isset($_POST['message'])){
+    if(!isset($_GET['name']) || 
+        !isset($_GET['email_from']) || 
+        !isset($_GET['message'])){
         died('We are sorry, but there appears to be a problem with the form you submitted.');
     }
        // from the form
-       $name = trim(strip_tags($_POST['name']));
-       $email_from = trim(strip_tags($_POST['email_from']));
-       $message = htmlentities($_POST['message']);
+       $name = trim(strip_tags($_GET['name']));
+       $email_from = trim(strip_tags($_GET['email_from']));
+       $message = htmlentities($_GET['message']);
 
         $error_message = "";
  
