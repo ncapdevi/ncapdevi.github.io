@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['email'])){
+if(isset($_POST['email_from'])){
     
         function died($error) { 
         // your error code can go here
@@ -12,13 +12,13 @@ if(isset($_POST['email'])){
     }
      
     if(!isset($_POST['name']) || 
-        !isset($_POST['email']) || 
+        !isset($_POST['email_from']) || 
         !isset($_POST['message'])){
         died('We are sorry, but there appears to be a problem with the form you submitted.');
     }
        // from the form
        $name = trim(strip_tags($_POST['name']));
-       $email = trim(strip_tags($_POST['email']));
+       $email_from = trim(strip_tags($_POST['email_from']));
        $message = htmlentities($_POST['message']);
 
         $error_message = "";
@@ -35,13 +35,13 @@ if(isset($_POST['email'])){
      }
  
      
- 
+  $email_message = "Form details below.\n\n";
     $email_message .= "Name: ".clean_string($name)."\n"; 
-    $email_message .= "Email: ".clean_string($email)."\n";
-    $email_message .= "Message: ".clean_string(message)."\n";
+    $email_message .= "Email: ".clean_string($email_from)."\n";
+    $email_message .= "Message: ".clean_string($message)."\n";
        // set here
-       $subject = "Contact form submitted!";
-       $to = 'Nic.Capdevila@gmail.com';
+       $email_subject = "Contact form submitted!";
+       $email_to = 'Nic.Capdevila@gmail.com';
 
        
        $headers = 'From: '.$email_from."\r\n".
@@ -50,7 +50,7 @@ if(isset($_POST['email'])){
  
 'X-Mailer: PHP/' . phpversion();
  
-@mail($to, $subject, $email_message, $headers);  
+@mail($email_to, $email_subject, $email_message, $headers);  
 }
  
 ?>
