@@ -56,6 +56,3 @@ if(isset($_POST['email'])){
      
     
 
- 
-}
-?>
