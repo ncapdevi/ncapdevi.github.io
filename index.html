@@ -122,9 +122,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		  </script>
 					<div class="slider">
 					<ul class="rslides" id="slider1">
-					  <li><img src="images/ba1.jpg" alt=""></li>
-					  <li><img src="images/ba1.jpg" alt=""></li>
-					  <li><img src="images/ba1.jpg" alt=""></li>
+					  <li><img src="images/FeatureGraphic.png" alt=""></li>
 					</ul>
 					</div>
 					<div class="sit">
@@ -223,17 +221,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="container">
 				<h3>CONTACT</h3>
 				<P>Get in touch <br> **Not yet functional**</p>
-				<form>
+				<form action="sendemail.php" method="post">
 					<div class="contact-grid">
 						<div class="col-md-6 contact-us">
-							<input type="text" value="Name*" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Name*';}">
+							<input type="text" name="Name" value="Name*" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Name*';}">
 						</div>
 						<div class="col-md-6 contact-us">
-							<input type="text" value="Email*" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Email*';}">
+							<input type="text" name="email" value="Email *" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Email*';}">
 						</div>
 						<div class="clearfix"> </div>
 					</div>
-					<textarea cols="77" rows="6" value=" " onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message*';}">Message*</textarea>
+					<textarea cols="77" rows="6" value=" " name="message" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message*';}">Message*</textarea>
 					<div class="send ">
 						<input type="submit" value="SEND NOW" >
 					</div>
