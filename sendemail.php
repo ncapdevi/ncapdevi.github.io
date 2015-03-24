@@ -50,7 +50,8 @@ if(isset($_POST['email_from'])){
  
 'X-Mailer: PHP/' . phpversion();
  
-@mail($email_to, $email_subject, $email_message, $headers);  
+    mail($email_to, $email_subject, $email_message, $headers); 
+    header('Location: thanks.html');
 }
  
 ?>
