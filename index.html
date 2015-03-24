@@ -220,18 +220,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="contact" id="contact">
 				<div class="container">
 				<h3>CONTACT</h3>
-				<P>Get in touch <br> **Not yet functional**</p>
-				<form  method="get" action="sendemail.php">
+				<P>Get in touch </p>
+				<form  method="POST" action="mailto:Nic.Capdevila@gmail.com?Subject=Email from ncapdevi.github.io" ENCTYPE="text/plain">
 					<div class="contact-grid">
+						
 						<div class="col-md-6 contact-us">
-							<input type="text" name="name" value="Name*" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Name*';}">
-						</div>
-						<div class="col-md-6 contact-us">
-							<input type="text" name="email_from" value="Email *" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Email*';}">
+							<input type="text" name="Subject" value="Subject *" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Subject*';}">
 						</div>
 						<div class="clearfix"> </div>
 					</div>
-					<textarea cols="77" rows="6" value=" " name="message" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message*';}">Message*</textarea>
+					<textarea cols="77" rows="6" value=" " name="Body" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message*';}">Message*</textarea>
 					<div class="send ">
 						<input type="submit" value="SEND NOW" >
 					</div>
