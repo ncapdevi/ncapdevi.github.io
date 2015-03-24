@@ -13,7 +13,7 @@ if(isset($_POST['email'])){
      
     if(!isset($_POST['name']) || 
         !isset($_POST['email']) || 
-        !isset($_POST['message']) || 
+        !isset($_POST['message'])){
         died('We are sorry, but there appears to be a problem with the form you submitted.');
     }
        // from the form
@@ -51,6 +51,7 @@ if(isset($_POST['email'])){
 'X-Mailer: PHP/' . phpversion();
  
 @mail($to, $subject, $email_message, $headers);  
+}
  
 ?>
      
