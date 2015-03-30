@@ -248,6 +248,10 @@ button::-moz-focus-inner {
 	padding: 1.2em 0;
 	font-family: 'Roboto', sans-serif;
 }
+.sit a{
+    font-weight: bold;
+    color: blue;
+}
 h4.prome{
 	float: left;
 	color: #000;
